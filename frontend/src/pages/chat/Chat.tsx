@@ -9,7 +9,7 @@ import uuid from 'react-uuid';
 import { isEmpty } from "lodash-es";
 
 import styles from "./Chat.module.css";
-import PithyNotesBlackGold from "../../assets/PithyNotesBlackGold.svg";
+import pithynotes from "../../assets/pithynotes.svg";
 
 import {
     ChatMessage,
@@ -586,7 +586,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={PithyNotesBlackGold}
+                                    src={pithynotes}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
